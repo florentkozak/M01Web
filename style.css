@@ -57,3 +57,36 @@ section#Liste th {
     color: #FFFFFF;
 }
 
+section#message h1 {
+    text-align: center;
+}
+
+section#message form{
+    box-sizing: border-box;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin : 10%; 
+    margin: 10%;
+}
+
+section#message label, section#message input, section#message select {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4C5454;
+    font-size: 18px;
+}
+
+section#message select, section#message input {
+    box-sizing: border-box;
+    background-color: #FF715B;
+    border: 1px solid #4C5454;
+    padding-top: 15px;
+    padding-bottom: 15;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
